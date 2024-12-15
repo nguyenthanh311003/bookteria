@@ -1,7 +1,5 @@
 package com.devteria.identity.dto.request;
 
-import com.devteria.identity.validator.DobConstraint;
-import jakarta.validation.constraints.Size;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 

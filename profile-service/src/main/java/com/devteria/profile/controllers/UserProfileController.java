@@ -1,13 +1,13 @@
 package com.devteria.profile.controllers;
 
-import com.devteria.profile.dtos.request.ProfileCreationRequest;
 import com.devteria.profile.dtos.response.UserProfileResponse;
 import com.devteria.profile.services.UserProfileService;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequiredArgsConstructor
